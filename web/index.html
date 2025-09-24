@@ -1,0 +1,62 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            text-align: center;
+            padding: 100px;
+        }
+        h1 {
+            color: white;
+            margin-bottom: 40px;
+        }
+        .card {
+            background: white;
+            display: inline-block;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 250px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px;
+            text-decoration: none;
+            color: white;
+            background: #4facfe;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        a:hover {
+            background: #007bbf;
+        }
+    </style>
+</head>
+<body>
+    <h1>Library Management System</h1>
+    <div class="card">
+        <h2>Admin Login</h2>
+        <p>Manage books (Add, Update, Delete)</p>
+        <a href="adminLogin.jsp">Login as Admin</a>
+    </div>
+
+    <div class="card">
+        <h2>User Login</h2>
+        <p>Search and view books</p>
+        <a href="userLogin.jsp">Login as User</a>
+    </div>
+</body>
+</html>
